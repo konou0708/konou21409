@@ -15,7 +15,7 @@ function hyoji() {
     setInterval("hyoji()",1000); } 
     
     function mes() { 
-        alert("野球！"); 
+        alert("家系ラーメン！"); 
     }
     function imagechange3() {
     }
