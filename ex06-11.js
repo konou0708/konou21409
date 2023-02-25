@@ -1,6 +1,6 @@
 function hyoji() { 
     //表示する文字
-    var str= "豚骨醤油"; 
+    var str= "1974年"; 
     //テキストボックスの文字数
     var cnt= document.timer.moji.value.length; 
     //文字が全部表示されているか確認
@@ -15,7 +15,7 @@ function hyoji() {
     setInterval("hyoji()",1000); } 
     
     function mes() { 
-        alert("家系ラーメン！"); 
+        alert("吉村家！"); 
     }
     function imagechange3() {
     }
