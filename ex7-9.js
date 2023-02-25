@@ -1,8 +1,8 @@
 function nazo5(){
-if(document.getElementById('answer5').value=='アーロンジャッジ'){
+if(document.getElementById('answer5').value=='究極の風邪薬'){
  alert('あたり！');
 }
-else if(document.getElementById('answer5').value=='アーロンジャッジ'){
+else if(document.getElementById('answer5').value=='究極の風邪薬'){
  alert('あたり！');
 }
 else{
