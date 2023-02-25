@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+    <meta charset="UTF-8">
+    <title> 期末課題</title>
+    <link rel="stylesheet" href="mystyle.css"> 
+    <link rel="stylesheet" href="imagechange.css"> 
+    <!--
+    <script src="myjs.js"</script>
+    -->
+    <script src="ex6-1.js"></script>
+    <script src="ex6-7.js"></script>
+    <script src="ex06-8.js"></script>
+    <script src="ex06-9.js"></script>
+    <script src="ex06-10.js"></script>
+    <script src="ex06-11.js"></script>
+    <script src="ex7-1.js"></script>
+ <script src="ex7-9.js"></script>
+        
+    </head>
+    <body>
+    <!--文字の大きさの練習-->
+   
+    <h1>こんにちは</h1>
+    <input type="button" value="ここを押して" onclick="sayhello();">
+   
+    <br>
+    
+    <!--<input type = "button" value = "がきた!" onclick ="gakita();">
+    -->
+    <br>
+   
+    <div id="txt1" >
+    <input type="button" value="テキストの変更" 
+    onclick="txtchange1();">
+    私は近藤央典</div>
+
+    <br>
+    <h1>問題</h1>
+    <input type="button" value="画像の変更" onclick="imgchange1();">
+    <img src='20221208-OYT1I50027-1.webp' id="logo" alt="日本ハム" class="imagechange">
+    <input type="button" value="元に戻す" 
+    onclick="imgchange2();">
+
+    <br>
+    
+    <h3>この人は誰でしょう？</h3>
+   <p>
+     答（カタカナ８文字で):<input type="text" id="answer5">
+     <input type="button" value="解答" onclick="nazo5();">
+   </p>
+        
+        
+        <h3>何のスポーツをやっている人でしょう？</h3>
+        <form> <input type="button" value="答え" 
+        onclick="setTimeout('mes()',3000)"> </form>
+
+        <h3>2022年彼が成し遂げたことは何でしょう？</h3>
+        <form name="timer"> 
+        <input type="button" value="スタート" 
+        onclick="startfnc()">
+        <br> 
+        <input type="text" name="moji" size="30" 
+        value=""> </form>
+        
+        
+         
+    <h1>リンク先</h1>
+    <a href="https>ニューヨーク・ヤンキース</a><br>
+   
+      
+
+<h2>見てくれてありがとう！</h2>
+<p>感想<input type="text" id="who71"></p>
+<input type="button" value="送信" 
+onclick="sayhello71();">
+
+</body>
+
+    </html>
