@@ -1,4 +1,4 @@
 function sayhello71() {
-    alert('ありがとう ' + 
+    alert('ありがとう' + 
 document.getElementById('who71').value + '!');
 }
